@@ -120,6 +120,13 @@
             margin-bottom: 10px;
         }
 
+        .proyecto-card .stack {
+            display: block;
+            color: #e94560;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
         .proyecto-card p {
             font-size: 0.9rem;
             color: #aaa;
@@ -179,6 +186,37 @@
             background-color: #005f8e;
         }
 
+        .btn-github {
+            background-color: #333;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn-github:hover {
+            background-color: #111;
+        }
+
+        .btn-email {
+            background-color: #e94560;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+
+        }
+
+        .btn-email:hover {
+            background-color: #c9304a;
+        }
+
         footer {
             text-align: center;
             padding: 30px;
@@ -193,7 +231,7 @@
 
     <header>
         <h1>Angelo Chávez</h1>
-        <p>Estudiante de Ingeniería en Software | HTML · CSS · Python · Excel · SQL | Disponible para proyectos freelance</p>
+        <p>Desarrollador Web Junior · Node.js · Express · MongoDB · JavaScript<br>Estudiante de Ingeniería de Software</p>
     </header>
 
     <nav>
@@ -205,18 +243,22 @@
 
     <section id="sobre-mi">
         <h2>Sobre mí</h2>
-        <p>Soy estudiante de 5.º semestre de Ingeniería en Software en la Universidad Politécnica Salesiana del Ecuador. Tengo más de 3 años de experiencia laboral en entornos industriales donde desarrollé habilidades de liderazgo, gestión de equipos y resolución de problemas. Actualmente me estoy desarrollando en el área tecnológica y busco oportunidades freelance donde aportar valor real.</p>
+        <p>Soy Angelo Chávez, estudiante de 6.º semestre de Ingeniería de Software en la Universidad Politécnica Salesiana del Ecuador, enfocado en el desarrollo web backend y full-stack. Construyo aplicaciones con Node.js, Express y MongoDB, aplicando buenas prácticas como validación de datos, manejo centralizado de errores, autenticación por sesiones y registro de logs. Aporto además más de 4 años de experiencia operativa en logística e inventario, con trayectoria de crecimiento hasta roles de supervisión. Busco un rol como desarrollador junior, presencial o remoto, donde seguir creciendo técnicamente y aportar valor real.</p>
     </section>
 
     <section id="habilidades">
         <h2>Habilidades</h2>
         <div class="habilidades">
+            <span class="habilidad">JavaScript</span>
+            <span class="habilidad">Node.js</span>
+            <span class="habilidad">Express</span>
+            <span class="habilidad">MongoDB</span>
+            <span class="habilidad">SQL</span>
             <span class="habilidad">HTML</span>
             <span class="habilidad">CSS</span>
             <span class="habilidad">Python</span>
-            <span class="habilidad">Excel</span>
-            <span class="habilidad">SQL</span>
-            <span class="habilidad">Power BI</span>
+            <span class="habilidad">Java</span>
+            <span class="habilidad">Git</span>
             <span class="habilidad">GitHub</span>
         </div>
     </section>
@@ -225,26 +267,37 @@
         <h2>Proyectos</h2>
         <div class="proyectos-grid">
             <div class="proyecto-card">
-                <h3>Portafolio Web Personal</h3>
-                <p>Página web personal desarrollada con HTML y CSS puro. Diseño moderno y responsive publicado con GitHub Pages.</p>
-                <a href="https://angelochavezz.github.io/Mi_Portafolio/" target="_blank">Ver proyecto →</a>
+                <h3>MiInventarioExpress</h3>
+                <span class="stack">Node.js · Express · MongoDB · Socket.io</span>
+                <p>Aplicación web de gestión de inventario con autenticación de usuarios, CRUD de productos y chat en tiempo real. Refactorizada por completo aplicando validación de entorno, manejo global de errores, autenticación del chat y sistema de logging con Winston.</p>
+                <a href="https://github.com/AngeloChavezZ/MiInventarioExpress" target="_blank">Ver en GitHub →</a>
             </div>
-             <div class="proyecto-card">
-            <h3>Restaurante Sabor Quiteño</h3>
-            <p>Página web para un restaurante ecuatoriano con menú, sección de nosotros y contacto por WhatsApp.</p>
-            <a href="https://angelochavezz.github.io/restaurante-sabor-quiteno/restaurante.html" target="_blank">Ver proyecto →</a>
-        </div>
+            <div class="proyecto-card">
+                <h3>Sistema de Inventario</h3>
+                <span class="stack">Python</span>
+                <p>Sistema de gestión de inventario para almacén de reactivos de laboratorio, construido desde cero aplicando lógica de negocio real: control de caducidad y rotación de lotes, gestión de proformas y persistencia de datos en JSON.</p>
+                <a href="https://github.com/AngeloChavezZ/fundamentos-python" target="_blank">Ver en GitHub →</a>
+            </div>
+            <div class="proyecto-card">
+                <h3>Restaurante Sabor Quiteño</h3>
+                <span class="stack">HTML · CSS · JavaScript</span>
+                <p>Página web para un restaurante ecuatoriano con menú, sección de nosotros y contacto por WhatsApp. Publicada con GitHub Pages.</p>
+                <a href="https://angelochavezz.github.io/restaurante-sabor-quiteno/restaurante.html" target="_blank">Ver proyecto →</a>
+            </div>
         </div>
     </section>
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>¿Tienes un proyecto en mente? Escríbeme directamente.</p>
+        <p>¿Buscas un desarrollador junior con ganas de crecer? Conversemos.</p>
         <div class="contacto-botones">
-            <a class="btn-whatsapp" href="https://wa.me/593939838544" target="_blank">💬 WhatsApp</a>
             <a class="btn-linkedin" href="https://www.linkedin.com/in/angelo-chávez-351b26272" target="_blank">🔗 LinkedIn</a>
+            <a class="btn-github" href="https://github.com/AngeloChavezZ" target="_blank">💻 GitHub</a>
+            <a class="btn-email" href="mailto:angelozamora88@gmail.com">✉️ Email</a>
+            <a class="btn-whatsapp" href="https://wa.me/593939838544" target="_blank">💬 WhatsApp</a>
         </div>
     </section>
+            
 
     <footer>
         <p>© 2026 Angelo Chávez — Guayaquil, Ecuador</p>
